@@ -1,0 +1,23 @@
+{
+  "name": "webtoelectron",
+  "version": "1.0.0",
+  "description": "Transform a web to an Electron app",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aralroca/webToElectron.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Aral Roca Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aralroca/webToElectron/issues"
+  },
+  "homepage": "https://github.com/aralroca/webToElectron#readme"
+}
