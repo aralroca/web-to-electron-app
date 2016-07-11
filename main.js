@@ -1,7 +1,7 @@
 
 const electron = require('electron');
-
 const { app, BrowserWindow, globalShortcut } = electron;
+const args = process.argv;
 
 let mainWindow;
 
@@ -11,8 +11,8 @@ app.on('ready', () => {
 		height: 700
 	});
 
-	mainWindow.setTitle('Smart Mirror');
-	mainWindow.loadURL('http://localhost:4200/');
+	mainWindow.setTitle(args[2]);
+	mainWindow.loadURL(args[3]);
 
 	mainWindow.on('closed', () => {
 		mainWindow = null;
