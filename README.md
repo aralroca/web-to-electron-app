@@ -4,7 +4,7 @@ Transform any web to an Electron app in few steps
 
 ##Steps: 
 
-* Clone or fork repository
+* Clone or fork this repository
 
 ```bash
 $ git clone https://github.com/aralroca/web-to-electron-app.git
