@@ -1,6 +1,6 @@
 
 const electron = require('electron');
-const { app, BrowserWindow, globalShortcut } = electron;
+const { app, BrowserWindow } = electron;
 const args = process.argv;
 
 let mainWindow;
